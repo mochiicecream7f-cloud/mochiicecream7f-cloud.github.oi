@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untuk Varel Satopa</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffd6e7, #fff0f5);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background: white;
+            width: 100%;
+            max-width: 400px;
+            padding: 30px 20px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            box-sizing: border-box;
+        }
+
+        .heart {
+            font-size: 55px;
+        }
+
+        h1 {
+            color: #e75480;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.7;
+        }
+
+        button {
+            background: #e75480;
+            color: white;
+            border: none;
+            padding: 14px 35px;
+            border-radius: 30px;
+            font-size: 17px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background: #d6336c;
+        }
+
+        #pesan {
+            display: none;
+            margin-top: 25px;
+            color: #e75480;
+            font-size: 23px;
+            font-weight: bold;
+            line-height: 1.6;
+        }
+
+        footer {
+            margin-top: 25px;
+            color: #aaa;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="heart">🖤</div>
+
+        <h1>Untuk Varel Satopa</h1>
+
+        <p>
+            Website ini dibuat dengan tujuan
+            untuk meminta maaf dengan tulus
+            kepada pacarku.
+        </p>
+
+        <h2>MAAFKAN AKU YA VAREL</h2>
+
+        <p>
+            Aku sadar mungkin ada perkataan
+            dan perbuatanku yang membuatmu kecewa.
+            Aku benar-benar minta maaf.
+        </p>
+
+        <button onclick="bukaPesan()">
+            (TEKAN)
+        </button>
+
+        <div id="pesan">
+            AKU SAYANG KAMU VAREL 🖤
+        </div>
+
+        <footer>
+            Dibuat dengan tulus ❤️
+        </footer>
+
+    </div>
+
+    <script>
+        function bukaPesan() {
+            document.getElementById("pesan").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
