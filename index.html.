@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RARAAAA | My Personal Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff5fa;
+            color: #444;
+        }
+
+        header {
+            background: #f5a6ca;
+            color: white;
+            text-align: center;
+            padding: 45px 15px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        nav {
+            background: white;
+            padding: 18px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #d85b98;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        section {
+            background: white;
+            margin: 25px auto;
+            padding: 30px;
+            width: 90%;
+            max-width: 750px;
+            border-radius: 15px;
+            box-shadow: 0 3px 12px #f3d4e3;
+        }
+
+        h2 {
+            color: #df75a8;
+            margin-bottom: 15px;
+        }
+
+        p {
+            line-height: 1.8;
+        }
+
+        button {
+            background: #e985b5;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 20px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #f5a6ca;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to RARAAAA</h1>
+        <p>My Personal Website 🌸</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Hallo, Selamat Datang!</h2>
+        <p>
+            Selamat datang di website pribadi RARAAAA.
+            Ini adalah tempat untuk mengenal saya lebih dekat.
+        </p>
+        <button onclick="sapa()">Klik Saya!</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me 💗</h2>
+        <p>
+            Halo! Saya Rara.
+            Saya suka membaca buku, menonton film,
+            belajar hal baru, dan berkebun.
+        </p>
+    </section>
+
+    <section id="education">
+        <h2>My Education 📚</h2>
+        <p>
+            Saya senang belajar dan mengembangkan
+            kemampuan serta pengetahuan.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me 🌷</h2>
+        <p>Terima kasih sudah mengunjungi website saya!</p>
+    </section>
+
+    <footer>
+        <p>© 2026 RARAAAA. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function sapa() {
+            alert("Halo! Selamat datang di website RARAAAA 💗");
+        }
+    </script>
+
+</body>
+</html>
